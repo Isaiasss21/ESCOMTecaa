@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.input-group input,
+.input-group select {
+    max-width: 300px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las tarjetas se ajusten a múltiples filas */
+    justify-content: space-around; /* Espacio uniforme entre tarjetas */
+    gap: 1rem; /* Espacio entre las tarjetas */
+    padding: 1rem;
+    width: 100%; /* Asegurar que ocupe el 100% del ancho disponible */
+    box-sizing: border-box;
+}
+
+.content-item {
+    flex: 1 1 calc(30% - 1rem); /* Cada tarjeta ocupará el 30% del ancho disponible */
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content-item:hover {
+    transform: scale(1.05);
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px; /* Añadir un pequeño espacio entre los botones */
+}
+
+button {
+    padding: 10px 20px !important;
+    border: none !important;
+    color: white !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    border-radius: 10px !important; /* Bordes curvos */
+    transition: background-color 0.3s ease, transform 0.3s ease !important; /* Transiciones suaves */
+}
+
+button:hover {
+    transform: scale(1.1) !important; /* Efecto de zoom al pasar el ratón */
+}
+
+.preview-btn {
+    background-color: #4CAF50 !important;
+}
+
+.preview-btn:hover {
+    background-color: #45a049 !important; /* Color más oscuro al pasar el ratón */
+}
+
+.download-btn {
+    background-color: #008CBA !important;
+}
+
+.download-btn:hover {
+    background-color: #007bb5 !important; /* Color más oscuro al pasar el ratón */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
