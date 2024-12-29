@@ -1,9 +1,9 @@
 const content = [
     //PRIMER SEMESTRE
     { title: 'Guía para ETS', description: 'Examenes anteriores', type: 'Libro', semester: '1', subject: 'Cálculo', link: 'Material/1/CalculoETS.pdf' },
-    { title: 'Guía para ETS', description: 'Examenes anteriores', type: 'Libro', semester: '1', subject: 'Análisis vectorial', link: 'AnalisisVectorialETS.pdf' },
+    { title: 'Guía para ETS', description: 'Examenes anteriores', type: 'Libro', semester: '1', subject: 'Análisis vectorial', link: 'Material/1/VectorialETS.pdf' },
     { title: 'Libro', description: 'Final Examen - Computer Science', type: 'Examen', semester: '1', subject: 'Análisis vectorial', link: 'Examen1.pdf' },
-    { title: 'Guía para ETS', description: 'Examenes anteriores', type: 'Libro', semester: '1', subject: 'Matemáticas discretas', link: 'Libro2.pdf' },
+    { title: 'Guía para ETS', description: 'Examenes anteriores', type: 'Libro', semester: '1', subject: 'Matemáticas discretas', link: 'Material/1/DiscretasETS.pdf' },
     { title: 'Libro', description: 'Advanced Mathematics', type: 'Libro', semester: '1', subject: 'Matemáticas discretas', link: 'Libro2.pdf' },
     { title: 'Examen', description: 'Midterm Examen - Physics', type: 'Examen', semester: '1', subject: 'Comunicación oral y escrita', link: 'Examen2.pdf' },
     { title: 'Libro', description: 'Algoritmos, estructura de datos y objetos', type: 'Libro', semester: '1', subject: 'Fundamentos de programación', link: 'Material/1/ProgramacionLibro1.pdf' },
