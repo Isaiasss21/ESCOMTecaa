@@ -1,2 +1,3 @@
 # ESCOMTeca
-Proyecto altruista de señalezzz 
+
+Proyecto altruista de señales
