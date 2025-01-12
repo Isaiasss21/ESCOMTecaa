@@ -54,14 +54,75 @@ const content = [
     { title: 'Examen', description: 'Examen anterior', type: 'Examen', semester: '6', subject: 'Ingeniería de software', link: 'Examen3.pdf' },
     { title: 'Examen', description: 'Examen anterior', type: 'Examen', semester: '6', subject: 'Inteligencia artificial', link: 'Examen4.pdf' },
     { title: 'Examen', description: 'Examen anterior', type: 'Examen', semester: '6', subject: 'Aplicaciones para comunicaciones en red', link: 'Examen3.pdf' },
+
+    { title: 'Libro', description: 'Diseño avanzado de sistemas digitales con SoC FPGAs', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Advanced Digital System Design using SoC FPGAs. An Integrated Hardware-Software Approach - Ross K. Snider.pdf' },
+    { title: 'Libro', description: 'Desarrollo de software sostenible', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Building Green Software. A Sustainable Approach to Software Development and Operations - Anne Currie, Sarah Hsu, Sara Bergman.pdf' },
+    { title: 'Libro', description: 'Buenas prácticas para C++20', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Clean C++20. Sustainable Software Development Patterns and Best Practices - Stephan Roth.pdf' },
+    { title: 'Libro', description: 'Mejorando la calidad del código', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Clean Code Cookbook. Recipes to Improve the Design and Quality of your Code - Maximiliano Contieri.pdf' },
+    { title: 'Libro', description: 'Guía completa de automatización de pruebas', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Complete Guide to Test Automation. Techniques, Practices, and Patterns for Building and Maintaining Effective Software Projects - Arnon Axelrod.pdf' },
+    { title: 'Libro', description: 'Mejorando habilidades de programación con Python', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Good Habits for Great Coding. Improving Programming Skills with Examples in Python - Michael Stueben.pdf' },
+    { title: 'Libro', description: 'Ingeniería de software con Python', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Hands-On Software Engineering with Python - Brian Allbee.pdf' },
+    { title: 'Libro', description: 'Guía visual y práctica para aprender Git', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Learning Git. A Hands-On and Visual Guide to the Basics of Git - Anna Skoulikari.pdf' },
+    { title: 'Libro', description: 'Diseño práctico con microcontroladores PIC', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Microcontroladores PIC. Diseño Práctico de Aplicaciones Tomo 1 - José María Angulo Usategui, Ignacio Angulo Martínez, Aritza Etxebarria Ruiz.pdf' },
+    { title: 'Libro', description: 'Mejorando la calidad del software moderno', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Modern Software Engineering. Doing What Works to Build Better Software Faster - David Farley.pdf' },
+    { title: 'Libro', description: 'Guía completa sobre puertos serie', type: 'Libro', semester: '6', subject: '', link: 'Material/6/Serial Port Complete. COM Ports, USB Virtual COM Ports, and Ports for Embedded Systems - Jan Axelson.pdf' },
+    { title: 'Libro', description: 'Diseño físico de SoC', type: 'Libro', semester: '6', subject: '', link: 'Material/6/SoC Physical Design. A Comprehensive Guide - Veena S. Chakravarthi, Shivananda R. Koteshwar.pdf' },
+    { title: 'Libro', description: 'Proyectos embebidos paso a paso', type: 'Libro', semester: '6', subject: '', link: 'Material/6/The Embedded Project Cookbook. A Step-by-Step Guide for Microcontroller Projects - John T. Taylor, Wayne T. Taylor.pdf' },
+    { title: 'Libro', description: 'Guía para Scrum Master (PSM I)', type: 'Libro', semester: '6', subject: '', link: 'Material/6/The Professional Scrum Master (PSM I) Guide - Fred Heath.pdf' },
+    { title: 'Libro', description: 'Consejos para la carrera de un desarrollador de software', type: 'Libro', semester: '6', subject: '', link: 'Material/6/The Software Developer\'s Career Handbook - Michael Lopp.pdf' },
+
+
+
     //SEPTIMO SEMESTRE
     { title: 'Examen', description: 'Examen anterior', type: 'Examen', semester: '7', subject: 'Desarrollo de aplicaciones nativas moviles', link: 'Examen3.pdf' },
     { title: 'Examen', description: 'Examen anterior', type: 'Examen', semester: '7', subject: 'Sistemas distribuidos', link: 'Examen4.pdf' },
     { title: 'Examen', description: 'Examen anterior', type: 'Examen', semester: '7', subject: 'Administració de servicios de red', link: 'Examen3.pdf' },
+
+
+    { title: 'Libro', description: 'Programación concurrente en Android', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Android Concurrency - G. Blake Meike.pdf' },
+    { title: 'Libro', description: 'Arquitectura en la nube y decisiones de diseño', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Architecting the Cloud. Design Decisions for Cloud Computing Service Models - Michael J. Kavis.pdf' },
+    { title: 'Libro', description: 'Sistemas distribuidos y principios básicos', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Distributed Systems - Maarten van Steen, Andrew S. Tanenbaum.pdf' },
+    { title: 'Libro', description: 'Android avanzado y técnicas avanzadas', type: 'Libro', semester: '7', subject: '', link: 'Material/7/El Gran Libro de Android Avanzado - Jesús Tomás, Gonzalo Puga, David Santamaría, Jorge Barroso.pdf' },
+    { title: 'Libro', description: 'Aprende Java para desarrollo Android', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Learn Java for Android Development - Peter Späth, Jeff Friesen.pdf' },
+    { title: 'Libro', description: 'Domina Firebase para desarrollo Android', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Mastering Firebase for Android Development.  Build Real-Time, Scalable, and Cloud-Enabled Android Apps with Firebase - Ashok Kumar S.pdf' },
+    { title: 'Libro', description: 'Patrones para sistemas distribuidos', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Patterns of Distributed Systems - Unmesh Joshi.pdf' },
+    { title: 'Libro', description: 'Aplicaciones móviles con Processing', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Processing for Android. Create Mobile, Sensor-Aware, and XR Applications Using Processing - Andrés Colubri.pdf' },
+    { title: 'Libro', description: 'Programación Android con Kotlin', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Programming Android with Kotlin - Pierre-Olivier Laurence, Amanda Hinchman-Dominguez, G. Blake Meike, Mike Dunn.pdf' },
+    { title: 'Libro', description: 'Fundamentos de sistemas distribuidos', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Sistemas Distribuidos - Francisco de Asís López Fuentes.pdf' },
+    { title: 'Libro', description: 'Conceptos y diseño de sistemas distribuidos', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Sistemas Distribuidos. Conceptos y Diseño - George Coulouris, Jean Dollimore, Tim Kindberg.pdf' },
+    { title: 'Libro', description: 'Arquitectura de software con Kotlin', type: 'Libro', semester: '7', subject: '', link: 'Material/7/Software Architecture with Kotlin. Combine various Architectural Styles to Create Sustainable and Scalable Software Solutions - Jason (Tsz Shun) Chow.pdf' },
+    { title: 'Libro', description: 'Guía definitiva de Firebase para Android', type: 'Libro', semester: '7', subject: '', link: 'Material/7/The Definitive Guide to Firebase. Build Android Apps on Google\'s Mobile Platform - Laurence Moroney.pdf' },
+    { title: 'Libro', description: 'Explorando Kotlin a fondo', type: 'Libro', semester: '7', subject: '', link: 'Material/7/The Joy of Kotlin - Pierre-Yves Saumont.pdf' },
+
+
     //OCTAVO SEMESTRE
     { title: 'Examen', description: 'Examen anterior', type: 'Examen', semester: '8', subject: 'Desarrollo de habilidades sociales para la dirección', link: 'Examen3.pdf' },
     { title: 'Examen', description: 'Examen anterior', type: 'Examen', semester: '8', subject: 'Gestión empresarial', link: 'Examen4.pdf' },
-    { title: 'Examen', description: 'Examen anterior', type: 'Examen', semester: '8', subject: 'Liderazgo personal', link: 'Examen3.pdf' }
+    { title: 'Examen', description: 'Examen anterior', type: 'Examen', semester: '8', subject: 'Liderazgo personal', link: 'Examen3.pdf' },
+
+
+
+    { title: 'Libro', description: 'Prácticas clave para mujeres en liderazgo', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Arrive and Thrive. Seven Impactful Practices for Women Navigating Leadership - Susan Mackenty Brady, Janet Foutty, Lynn Perry Wooten.pdf' },
+    { title: 'Libro', description: 'Trabajo en equipos virtuales y confianza', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Building Virtual Teams. Trust, Culture, and Remote Working - Catalina Dumitru.pdf' },
+    { title: 'Libro', description: 'Casos de éxito y consejos en liderazgo', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Casos de Éxito en Liderazgo. Guia de Acciones, Motivaciones y Tips Gerenciales - BusinessWeek.pdf' },
+    { title: 'Libro', description: 'Comunicación oral y escrita efectiva', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Comunicación Oral y Escrita - María del Socorro Fonseca Yerena, Alicia Correa Pérez, María Ignacia Pineda Ramírez, Francisco Lemus Hernández.pdf' },
+    { title: 'Libro', description: 'Desarrollo de habilidades directivas', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Desarrollo de Habilidades Directivas - David A. Whetten, Kim S. Cameron.pdf' },
+    { title: 'Libro', description: 'Plan de carrera para desarrolladores', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Developer Career Masterplan - Heather VanCura, Bruno Souza.pdf' },
+    { title: 'Libro', description: 'Mejorando habilidades directivas', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Habilidades Directivas - Berta E. Madrigal Torres.pdf' },
+    { title: 'Libro', description: 'Liderazgo en altos niveles', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Liderazgo Al Más Alto Nivel - Ken Blanchard.pdf' },
+    { title: 'Libro', description: 'Liderazgo inspirador y motivación', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Liderazgo Inspiracional - Carlos Miguel Barber Kuri, Carlos Clúa de la Torre.pdf' },
+    { title: 'Libro', description: 'El poder de la inteligencia emocional', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Liderazgo. El Poder de la Inteligencia Emocional - Daniel Goleman.pdf' },
+    { title: 'Libro', description: 'Liderazgo de alto impacto', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Líderes de Alto Impacto - Dr. Roberto Rabouin.pdf' },
+    { title: 'Libro', description: 'Habilidades clave para gerentes', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Manager’s Handbook. The 17 Skills Leaders Need to Stand Out - Harvard Business Review.pdf' },
+    { title: 'Libro', description: 'Comunicación efectiva en el trabajo', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Simply Said. Communicating Better at Work and Beyond - Jay Sullivan.pdf' },
+    { title: 'Libro', description: 'Habilidades para desarrolladores', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Soft Skills to Advance Your Developer Career. Actionable Steps to Help Maximize Your Potential - Zsolt Nagy.pdf' },
+    { title: 'Libro', description: 'Lecciones de liderazgo de Steve Jobs', type: 'Libro', semester: '8', subject: '', link: 'Material/8/Steve Jobs. Lecciones de Liderazgo - Walter Isaacson.pdf' },
+    { title: 'Libro', description: 'El arte del liderazgo', type: 'Libro', semester: '8', subject: '', link: 'Material/8/The Art of Leadership. Small Things, Done Well - Michael Lopp.pdf' },
+    { title: 'Libro', description: 'Liderazgo técnico y gestión', type: 'Libro', semester: '8', subject: '', link: 'Material/8/The Engineering Executive\'s Primer. Impactful Technical Leadership - Will Larson.pdf' },
+    { title: 'Libro', description: 'Estrategias para escalar equipos', type: 'Libro', semester: '8', subject: '', link: 'Material/8/The Engineering Leader. Strategies for Scaling Teams and Yourself - Cate Huston.pdf' },
+    { title: 'Libro', description: 'Crecimiento y cambios en liderazgo', type: 'Libro', semester: '8', subject: '', link: 'Material/8/The Manager’s Path. A Guide for Tech Leaders Navigating Growth and Change - Camille Fournier.pdf' },
+    { title: 'Libro', description: 'Productividad en trabajo remoto', type: 'Libro', semester: '8', subject: '', link: 'Material/8/The Power of Virtual Distance. A Guide to Productivity and Happiness in the Age of Remote Work - Karen Sobel Lojeski, Richard R. Reilly.pdf' }
+
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
